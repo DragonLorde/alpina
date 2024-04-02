@@ -1,0 +1,1 @@
+export { CatalogCarouselItem } from './CatalogCarouselItem';

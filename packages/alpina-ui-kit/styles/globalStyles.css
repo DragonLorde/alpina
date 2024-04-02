@@ -1,6 +1,20 @@
+body {
+  background-color: #fff !important;
+}
 @font-face {
   font-family: 'Gotham Pro';
-  src: url('../public/font/GothamPro.woff') format('woff'),
-  url('../public/font/GothamPro-Bold.woff') format('woff'),
-  url('../public/font/GothamPro-Light.woff') format('woff');
+  font-weight: 400;
+  src: url('../public/font/GothamPro.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  font-weight: 300;
+  src: url('../public/font/GothamPro-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  font-weight: 600;
+  src: url('../public/font/GothamPro-Bold.woff') format('woff');
 }

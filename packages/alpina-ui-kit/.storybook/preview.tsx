@@ -1,6 +1,7 @@
 import type { Preview } from '@storybook/react';
 import '../styles/globalStyles.css';
-
+import { AntdRegistry } from '@ant-design/nextjs-registry';
+import { themeClass } from '../src';
 const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: '^on[A-Z].*' },
@@ -11,6 +12,15 @@ const preview: Preview = {
       },
     },
   },
+  decorators: [
+    (Story) => (
+      <AntdRegistry>
+        <div className={`${themeClass}`}>
+          <Story />
+        </div>
+      </AntdRegistry>
+    ),
+  ],
 };
 
 export default preview;

@@ -16,7 +16,6 @@
     "baseUrl": ".",
     "paths": {
       "@alpina/alpina-ui-kit": ["packages/alpina-ui-kit/src/index.ts"],
-      "@alpina/alpina-ui-kit/server": ["packages/alpina-ui-kit/src/server.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

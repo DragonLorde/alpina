@@ -1,5 +1,6 @@
 import styles from './page.module.scss';
 import * as s from './main.css';
+import { StyledTypography, sT } from '@alpina/alpina-ui-kit';
 export default function Index() {
   /*
    * Replace the elements below with your own.
@@ -13,6 +14,7 @@ export default function Index() {
           <div id="welcome">
             <button className={s.flexContainer}>asfasfsa</button>
             <h1>
+              <StyledTypography styleOverride={sT.variantBold.baseM} withBottomLine> TEST </StyledTypography>
               <span> Hello there, </span>
               Welcome alpina-web 👋
             </h1>

@@ -1,0 +1,1 @@
+export { CatalogItemLink } from './CatalogItemLink';
