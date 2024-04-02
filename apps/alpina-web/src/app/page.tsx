@@ -14,7 +14,9 @@ export default function Index() {
           <div id="welcome">
             <button className={s.flexContainer}>asfasfsa</button>
             <h1>
-              <StyledTypography styleOverride={sT.variantBold.baseM} withBottomLine> TEST </StyledTypography>
+              <StyledTypography styleOverride={sT.variantBold.baseM} withBottomLine>
+                TEST
+              </StyledTypography>
               <span> Hello there, </span>
               Welcome alpina-web 👋
             </h1>
