@@ -1,0 +1,25 @@
+{
+  "name": "alpina-ui-kit",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/alpina-ui-kit/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project alpina-ui-kit --web",
+  "targets": {
+    "build-storybook": {
+      "executor": "@nx/storybook:build",
+      "outputs": [
+        "{options.outputDir}"
+      ],
+      "options": {
+        "outputDir": "dist/storybook/ui",
+        "configDir": ".storybook"
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    }
+  }
+}
